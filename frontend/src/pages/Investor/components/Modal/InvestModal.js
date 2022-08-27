@@ -162,7 +162,7 @@ const InvestModal = ({
                 onChange={(event) => setAmount(event.target.value)}
               />
               <span className="text-[#64748B] font-medium absolute bottom-3 right-2 select-none">
-                USDC
+                {process.env.REACT_APP_TOKEN_NAME}
               </span>
             </div>
           </div>
